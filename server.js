@@ -33,7 +33,7 @@ app.post("/submit", (req, res) => {
         res.status(500).send("Server error");
         return;
       }
-      res.send(`Username "${username}" successfully added!`);
+      res.send(`Username "${username}" successfully added in list!`);
     }
   );
 });
